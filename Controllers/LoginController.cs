@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebApp.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 
 namespace WebApp.Controllers
 {
@@ -48,15 +49,13 @@ namespace WebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UserLogin([Bind] UserDetails user)
         {
-              ModelState.Remove("FirstName");  
-            ModelState.Remove("LastName");  
-  
             //if (ModelState.IsValid)  
            // {  
                 string LoginStatus = objUser.ValidateLogin(user);  
   
                 if (LoginStatus == "Success")  
-                {  
+                {
+                HttpContext.Session.SetString("ID", user.Emplid);
                     var claims = new List<Claim>  
                     {  
                         new Claim(ClaimTypes.Name, user.Emplid)  
