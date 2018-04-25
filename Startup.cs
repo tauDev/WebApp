@@ -48,11 +48,12 @@ namespace WebApp
 
             app.UseStaticFiles();
             app.UseSession();
+            //app.UseMvc();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Login}/{action=UserLogin}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "96d964db9736f5516afaf64d3f7faffb3db136eb"
+    "signature": "55cac931b757400c03ed11938fceafeb3b61a029"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,8 @@
       "WebApp/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.7",
+          "Microsoft.AspNetCore.Hosting": "2.0.2",
+          "Microsoft.AspNetCore.Hosting.WindowsServices": "2.0.2",
           "Microsoft.AspNetCore.Session": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3"
@@ -686,6 +688,14 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
+        "runtime": {
+          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
+        },
+        "compile": {
+          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
@@ -4496,6 +4506,13 @@
       "sha512": "sha512-tvz7D661JTyJXRxWLqOSH0s1zF9bLviZd14aA8poR+srvldS0gg1j62e7SaM5LQrUn+Z4dPwJqBtLXZDj5PtYw==",
       "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.2",
       "hashPath": "microsoft.aspnetcore.hosting.server.abstractions.2.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HWI+6AkrYHI2UcqyAY0dsXo2fFiDYdpnq7pNhp++o+ZJuD+Z1XnoSOgwZrjAyhSs/QPWxLCephnRsoAYuVC15A==",
+      "path": "microsoft.aspnetcore.hosting.windowsservices/2.0.2",
+      "hashPath": "microsoft.aspnetcore.hosting.windowsservices.2.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
       "type": "package",

@@ -701,6 +701,15 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -5476,6 +5485,17 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
         "microsoft.aspnetcore.hosting.server.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
+      "sha512": "HWI+6AkrYHI2UcqyAY0dsXo2fFiDYdpnq7pNhp++o+ZJuD+Z1XnoSOgwZrjAyhSs/QPWxLCephnRsoAYuVC15A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.windowsservices/2.0.2",
+      "files": [
+        "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll",
+        "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.xml",
+        "microsoft.aspnetcore.hosting.windowsservices.2.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.windowsservices.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
@@ -13120,6 +13140,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.7",
+      "Microsoft.AspNetCore.Hosting >= 2.0.2",
+      "Microsoft.AspNetCore.Hosting.WindowsServices >= 2.0.2",
       "Microsoft.AspNetCore.Session >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3"
@@ -13170,6 +13192,14 @@
             "target": "Package",
             "version": "[2.0.7, )"
           },
+          "Microsoft.AspNetCore.Hosting": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Microsoft.AspNetCore.Hosting.WindowsServices": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "[2.0.2, )"
@@ -13191,5 +13221,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Hosting.WindowsServices 2.0.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNetCore.Hosting.WindowsServices",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

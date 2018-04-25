@@ -1,0 +1,15 @@
+D:\Project2018\WebApp\WebApp
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebApp
+--content-root=D:\Project2018\WebApp\WebApp
+--file=D:\Project2018\WebApp\WebApp\Views\Home\About.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Home\Contact.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Home\Index.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Home\Logout.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Login\RegisterUser.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Login\UserLogin.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Shared\Error.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Shared\_Layout.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\_ViewImports.cshtml
+--file=D:\Project2018\WebApp\WebApp\Views\_ViewStart.cshtml
