@@ -8,3 +8,14 @@ D:\Project2018\WebApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.c
 D:\Project2018\WebApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
 D:\Project2018\WebApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
 D:\Project2018\WebApp\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
+C:\DevJava\WebApp\bin\Debug\netcoreapp2.0\WebApp.deps.json
+C:\DevJava\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.json
+C:\DevJava\WebApp\bin\Debug\netcoreapp2.0\WebApp.runtimeconfig.dev.json
+C:\DevJava\WebApp\bin\Debug\netcoreapp2.0\WebApp.dll
+C:\DevJava\WebApp\bin\Debug\netcoreapp2.0\WebApp.pdb
+C:\DevJava\WebApp\obj\Debug\netcoreapp2.0\WebApp.csproj.CoreCompileInputs.cache
+C:\DevJava\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfoInputs.cache
+C:\DevJava\WebApp\obj\Debug\netcoreapp2.0\WebApp.AssemblyInfo.cs
+C:\DevJava\WebApp\obj\Debug\netcoreapp2.0\WebApp.dll
+C:\DevJava\WebApp\obj\Debug\netcoreapp2.0\WebApp.pdb
+C:\devjava\webapp\obj\Debug\netcoreapp2.0\WebApp.csprojResolveAssemblyReference.cache

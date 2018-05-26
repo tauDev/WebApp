@@ -701,15 +701,6 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -5485,17 +5476,6 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
         "microsoft.aspnetcore.hosting.server.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Hosting.WindowsServices/2.0.2": {
-      "sha512": "HWI+6AkrYHI2UcqyAY0dsXo2fFiDYdpnq7pNhp++o+ZJuD+Z1XnoSOgwZrjAyhSs/QPWxLCephnRsoAYuVC15A==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.hosting.windowsservices/2.0.2",
-      "files": [
-        "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.dll",
-        "lib/net461/Microsoft.AspNetCore.Hosting.WindowsServices.xml",
-        "microsoft.aspnetcore.hosting.windowsservices.2.0.2.nupkg.sha512",
-        "microsoft.aspnetcore.hosting.windowsservices.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.0.1": {
@@ -13141,31 +13121,33 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.AspNetCore.Hosting >= 2.0.2",
-      "Microsoft.AspNetCore.Hosting.WindowsServices >= 2.0.2",
       "Microsoft.AspNetCore.Session >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\parinya\\.nuget\\packages\\": {},
+    "C:\\Users\\atyou15\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project2018\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\devjava\\webapp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "D:\\Project2018\\WebApp\\WebApp\\WebApp.csproj",
-      "packagesPath": "C:\\Users\\parinya\\.nuget\\packages\\",
-      "outputPath": "D:\\Project2018\\WebApp\\WebApp\\obj\\",
+      "projectPath": "C:\\devjava\\webapp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\atyou15\\.nuget\\packages\\",
+      "outputPath": "C:\\devjava\\webapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\parinya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\atyou15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13196,10 +13178,6 @@
             "target": "Package",
             "version": "[2.0.2, )"
           },
-          "Microsoft.AspNetCore.Hosting.WindowsServices": {
-            "target": "Package",
-            "version": "[2.0.2, )"
-          },
           "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "[2.0.2, )"
@@ -13221,17 +13199,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Hosting.WindowsServices 2.0.2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNetCore.Hosting.WindowsServices",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
